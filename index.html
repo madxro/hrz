@@ -1,0 +1,310 @@
+<html lang="">
+  <head>
+    <meta charSet="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>
+      HORIZON
+    </title>
+    <meta name="description" content="HORIZON is the ultimate tool for analyzing shares. Powered by Bavest."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta property="og:image" content="assets/aevo3oze.png?w=1200&amp;h=630&amp;fit=crop"/>
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"/>
+  </head>
+  <body>
+    <div style="font-family:&#x27;Roboto&#x27;, Arial, serif;font-size:14px">
+      <div>
+        <header class="header" style="color:rgba(255,255,255,1);font-weight:400">
+          <div class="wr">
+            <a id="headerLogo" href="/" class="header__logo" style="font-weight:300">
+              HORIZON
+            </a>
+            <nav id="headerNav" class="header__nav">
+              <a href="../construction.html" class="btn btn--c btn--plain" style="color:rgba(130,77,223,1)">
+                Pricing
+              </a>
+              <div class="header__navCtas">
+                <a href="../construction.html" class="btn btn--c btn--primary" style="color:rgba(255,255,255,1);background-color:rgba(130,77,223,1)">
+                  Sign Up
+                </a>
+              </div>
+            </nav>
+            <nav id="headerMenu" class="header__nav header__nav--hidden">
+              <button id="headerMenuButton" class="btn btn--c btn--primary" style="color:rgba(255,255,255,1);background-color:rgba(130,77,223,1)">
+                Menu
+              </button>
+            </nav>
+            <nav id="headerDrawer" class="headerMenu">
+              <div id="headerDrawerBackdrop" class="headerMenu__backdrop">
+              </div>
+              <ul class="headerMenu__links">
+                <li>
+                  <a href="../construction.html" class="btn btn--c btn--plain" style="color:rgba(130,77,223,1)">
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a href="../construction.html" class="btn btn--c btn--primary" style="color:rgba(255,255,255,1);background-color:rgba(130,77,223,1)">
+                    Sign Up
+                  </a>
+                </li>
+              </ul>
+              <button id="headerDrawerClose" class="headerMenu__close btn">
+                Close
+              </button>
+            </nav>
+          </div>
+          <script>
+            (function() {
+              var buffer = 10;
+              var margin = 60 + 40 + buffer;
+              // button
+              var button = document.getElementById('headerMenuButton');
+              var buttonWrapper = document.getElementById('headerMenu');
+              // drawer
+              var drawer = document.getElementById('headerDrawer');
+              var drawerBackdrop = document.getElementById('headerDrawerBackdrop');
+              var drawerClose = document.getElementById('headerDrawerClose');
+              // header UI
+              var logo = document.getElementById('headerLogo');
+              var nav = document.getElementById('headerNav');
+              var logoWidth = logo.offsetWidth;
+              var navWidth = nav.offsetWidth;
+            
+              var determineVisibility = function() {
+                var parent = window.innerWidth;
+                if (logoWidth + navWidth > parent - margin) {
+                  nav.classList.add('header__nav--hidden');
+                  buttonWrapper.classList.add('headerMenu--visible');
+                } else {
+                  nav.classList.remove('header__nav--hidden');
+                  buttonWrapper.classList.remove('headerMenu--visible');
+                }
+              };
+            
+              var showDrawer = function() {
+                drawer.classList.add('headerMenu--visible');
+              };
+            
+              var hideDrawer = function() {
+                drawer.classList.remove('headerMenu--visible');
+              };
+            
+              button.onclick = showDrawer;
+              drawerBackdrop.onclick = hideDrawer;
+              drawerClose.onclick = hideDrawer;
+            
+              window.addEventListener('resize', determineVisibility);
+              determineVisibility();
+            })();
+          </script>
+        </header>
+      </div>
+      <div>
+        <div class="section section--hero" style="background-image:url(assets/qhdyvror.jpg?w=1300&amp;h=800&amp;q=50&amp;fit=crop)">
+          <div class="wr heroWr heroWr--left">
+            <div class="heroWrapper heroWrapper--left heroWrapper--pd">
+              <h1 class="hero__title" style="color:rgba(255,255,255,1);font-weight:300;font-family:&#x27;Roboto&#x27;, Arial, serif">
+                Analyze shares
+              </h1>
+              <h2 class="hero__subtitle" style="color:rgba(255,255,255,1);font-weight:400">
+                Our algorithms analyze larger companies using mathematical models, as well as market analysis. HORIZON is the ultimate tool for analyzing shares. Powered by Bavest.
+              </h2>
+              <div class="hero__ctas">
+                <a href="../construction.html" class="btn btn--c btn--primary btn--large" style="color:rgba(255,255,255,1);background-color:rgba(130,77,223,1)">
+                  Get Started
+                </a>
+                <a href="../construction.html" class="btn btn--c btn--secondary btn--large" style="color:rgba(130,77,223,1)">
+                  Explore
+                </a>
+              </div>
+            </div>
+            <div class="pd pd--right">
+              <img src="assets/psn4g9mp.png?h=500&amp;fix=crop" class="pd__imgBox pd__imgBox--transparent"/>
+            </div>
+          </div>
+          <div class="divider">
+            <svg viewBox="0 0 1695 57" preserveAspectRatio="none">
+              <path d="M0 23c135.4 19 289.6 28.5 462.5 28.5C721.9 51.5 936.7 1 1212.2 1 1395.8.9 1556.7 8.3 1695 23v34H0V23z" fill="rgba(252,252,252,1)" fill-rule="evenodd">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section section--logos" style="background-color:rgba(252,252,252,1)">
+          <div class="wr">
+            <h2 class="section__title center" style="color:rgba(36,36,36,1);font-weight:300;font-family:&#x27;Roboto&#x27;, Arial, serif">
+              Powered by
+            </h2>
+               <div>
+               <center>
+                <a href="../index.html">
+                <img src="assets/wr44fu6q.png" width="400" height="242" alt="bavest"></center>
+               </a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section" style="background-color:#a049ff;background:linear-gradient(90deg, #a049ff 0%, #5908ec 100%)">
+          <div class="wr">
+            <h2 class="section__title center" style="color:rgba(255,255,255,1);font-weight:300;font-family:&#x27;Roboto&#x27;, Arial, serif">
+              Features
+            </h2>
+            <h3 class="section__subtitle center" style="color:rgba(255,255,255,1);font-weight:400">
+              What you can do with Horizon?
+            </h3>
+            <div class="features features--trio features--center">
+              <div class="feature">
+                <div class="icon icon--medium" style="height:120px;width:120px;background-image:url(assets/m91ufyxm.svg?w=32)">
+                </div>
+                <h3 class="feature__title" style="color:rgba(255,255,255,1);font-weight:500">
+                  Analyze
+                </h3>
+                <p class="feature__description" style="color:rgba(255,255,255,1);font-weight:400">
+                  Analyze large amounts of stocks, analyze their performance and more.
+                  HORIZON is a tool, which is using fundamental analysis, to analyze stocks and companies.
+                </p>
+              </div>
+              <div class="feature">
+                <div class="icon icon--medium" style="height:120px;width:120px;background-image:url(assets/6ln05ib6.svg?w=32)">
+                </div>
+                <h3 class="feature__title" style="color:rgba(255,255,255,1);font-weight:500">
+                  Stock performance
+                </h3>
+                <p class="feature__description" style="color:rgba(255,255,255,1);font-weight:400">
+                  Our algorithms calculate important numbers for you and organize the data of the perfomance of stocks and companies.
+                </p>
+              </div>
+              <div class="feature">
+                <div class="icon icon--medium" style="height:120px;width:120px;background-image:url(assets/zxtxhrdt.svg?w=32)">
+                </div>
+                <h3 class="feature__title" style="color:rgba(255,255,255,1);font-weight:500">
+                  Get report
+                </h3>
+                <p class="feature__description" style="color:rgba(255,255,255,1);font-weight:400">
+                  At the end of the report you have the ability to evaluate the stock, your evaluation then is based on solid numbers and data, collected and analyzed by HORIZON.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section" style="background-color:#ffffff">
+          <div class="wr">
+            <h2 class="section__title center" style="color:rgba(36,36,36,1);font-weight:300;font-family:&#x27;Roboto&#x27;, Arial, serif">
+              How it works
+            </h2>
+            <div class="zigzag">
+              <div class="zigzagItem zigzagItem--right">
+                <div class="zigzagItem__content">
+                  <span class="zigzagItem__number" style="color:rgba(36,36,36,1);font-weight:400">
+                    #1
+                  </span>
+                  <h3 class="zigzagItem__title" style="color:rgba(36,36,36,1);font-weight:700">
+                    Analyze
+                  </h3>
+                  <p class="zigzagItem__text" style="color:rgba(36,36,36,1);font-weight:400">
+                    Choose your stock and analyze it with HORIZON. Then our algorithms will analyze the company perfomrnace, stock prediction &amp; lot more. 
+                  </p>
+                </div>
+                <div class="zigzagItem__graphic">
+                  <img src="assets/lwlfywde.svg" class="media media--image" srcSet="assets/lwlfywde.svg 2x"/>
+                </div>
+              </div>
+              <div class="zigzagItem zigzagItem--left">
+                <div class="zigzagItem__graphic">
+                  <img src="assets/4sjoe3ft.svg" class="media media--image" srcSet="assets/4sjoe3ft.svg 2x"/>
+                </div>
+                <div class="zigzagItem__content">
+                  <span class="zigzagItem__number" style="color:rgba(36,36,36,1);font-weight:400">
+                    #2
+                  </span>
+                  <h3 class="zigzagItem__title" style="color:rgba(36,36,36,1);font-weight:700">
+                    Calculate
+                  </h3>
+                  <p class="zigzagItem__text" style="color:rgba(36,36,36,1);font-weight:400">
+                    Our algorithms calculate important key figures of the company &amp; their stock.
+                  </p>
+                </div>
+              </div>
+              <div class="zigzagItem zigzagItem--right">
+                <div class="zigzagItem__content">
+                  <span class="zigzagItem__number" style="color:rgba(36,36,36,1);font-weight:400">
+                    #3
+                  </span>
+                  <h3 class="zigzagItem__title" style="color:rgba(36,36,36,1);font-weight:700">
+                    Evaluate
+                  </h3>
+                  <p class="zigzagItem__text" style="color:rgba(36,36,36,1);font-weight:400">
+                    Then our algorithms evaluate an investment case for you &amp; show possible outcomes of your decisions.
+                  </p>
+                </div>
+                <div class="zigzagItem__graphic">
+                  <img src="assets/93tjbs1y.svg" class="media media--image" srcSet="assets/93tjbs1y.svg 2x"/>
+                </div>
+              </div>
+              <div class="zigzagItem zigzagItem--left">
+                <div class="zigzagItem__graphic">
+                  <img src="assets/wi7nhlz3.svg" class="media media--image" srcSet="assets/wi7nhlz3.svg 2x"/>
+                </div>
+                <div class="zigzagItem__content">
+                  <span class="zigzagItem__number" style="color:rgba(36,36,36,1);font-weight:400">
+                    #4
+                  </span>
+                  <h3 class="zigzagItem__title" style="color:rgba(36,36,36,1);font-weight:700">
+                    Get the report
+                  </h3>
+                  <p class="zigzagItem__text" style="color:rgba(36,36,36,1);font-weight:400">
+                    At the end you get a PDF report of the results. Now you're ready to start you investments right!
+                  </p>
+                   <a href="../construction.html" class="btn btn--c btn--primary" style="color:rgba(255,255,255,1);background-color:rgba(130,77,223,1)">
+                    Get Started
+                  </a>
+                  <p class="zigzagItem__text" style="color:rgba(36,36,36,1);font-weight:400">
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div>
+        <footer class="section section--footer" style="background-color:#a049ff;background:linear-gradient(90deg, #a049ff 0%, #5908ec 100%)">
+          <div class="wr">
+            <div class="footer" style="color:rgba(255,255,255,1);font-weight:400">
+              <div class="footer__primary">
+                <span>
+                  © 2018 Bavest
+                </span>
+              </div>
+              <ul class="footer__social">
+                <li>
+                  <a href="#" target="_blank">
+                    <svg viewBox="0 0 448 512">
+                      <path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z" fill="rgba(255,255,255,1)">
+                      </path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/bavest.horizon/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="rgba(255,255,255,1)">
+                      </path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
